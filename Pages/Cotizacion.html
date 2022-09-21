@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/cotizar.css">
+  </head>
+  <body>
+    <header>
+        <div class="seleccion">
+            <nav>    
+                    <img src="../multimedia/logoblckwht.jpeg" class = "img-fluid"  alt="Logo pagina">
+                    <button type="button" class="btn btn-outline-primary">Nosotros</button>
+                    <button type="button" class="btn btn-outline-primary">Productos</button>
+                    <button type="button" class="btn btn-outline-success">Pedidos Personalizados</button>
+                    <button type="button" class="btn btn-outline-danger">Dudas con tu pedido?</button>
+                    <button type="button" class="btn btn-outline-warning">Pagos y facturación</button>
+                    <button type="button" class="btn btn-outline-warning" >Ya nos sigues?  |   <img src="../multimedia/insta.png" width="20px" alt="" > | <img src="../multimedia/face.png" width="20px" alt=""> |</button>
+            </nav>
+    </header>
+        <br><br><br><br>
+        <main class="container">
+            <h2>Te interesa una cotización aproximada?</h2>
+            <p>Por favor, selecciona y completa los campos correspondientes para que la informacion sea precisa, y nos pondremos en contacto lo más pronto posible</p>
+            <br>
+            <form>
+                <div class="form-group">
+                  <label for="inputNombre">Nombre</label>
+                  <input type="text" class="form-control" id="inputNombre" placeholder="Introduzca su nombre">
+                </div>
+                <div class="form-group">
+                  <label for="inputCorreo">Correo Electrónico</label>
+                  <input type="text" class="form-control" id="inputCorreo" placeholder="Direccion de correo electronico">
+                </div>
+                  <div class="form-group">
+                    <label for="inputTele">Teléfono</label>
+                    <input type="text" class="form-control" id="inputTele" placeholder="Numero telefonico">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputCant">Cantidad</label>
+                    <input type="text" class="form-control" id="inputCant" placeholder="Cantidad de piezas">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPostre">Tipo de postre</label>
+                    <select id="inputPostre" class="form-control">
+                      <option selected>Elegir...</option>
+                      <option value="65">Postre de frutas</option>
+                      <option value="150">Pasteles</option>
+                      <option value="12">Galletas</option>
+                    </select>
+                  </div>
+                  <div class="form-group"> 
+                    <label for="inputIngre">Número de ingredientes</label>
+                    <select id="inputIngre" class="form-control">
+                      <option selected>Elegir...</option>
+                      <option value="1">1 Ingrediente</option>
+                      <option value="1.30">2 Ingredientes</option>
+                      <option value="1.50">3 Ingredientes</option>
+                      <option value="1.70">4 Ingredientes</option>
+                    </select>
+                  </div>
+                  <br>
+                 <h5>Recuerda que la cotización es aproximada, y que el costo podría cambiar en base a las especificaciones que requieras</h5>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="checkEnvio" >
+                    <strong><label class="form-check-label" for="gridCheck" >
+                      Envío $200 (Solo área metropolitana)
+                    </label></strong>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-primary" id="btnCotizar">Cotizar</button>
+                <br><br>
+                <div class="alert alert-warning" role="alert" id="Precio">
+                    Precio estimado
+                  </div>
+              </form>
+          </main>
+          <br><br><br>
+          <footer>
+            <div class="container">
+                    <nav>
+                        <span class="badge badge-success">Quejas y sugerencias</span>
+                        <span class="badge badge-danger">Aclaraciones</span>
+                        <span class="badge badge-warning">Creador del sitio</span>
+                        <span class="badge badge-primary">Generation 2022. Todos los derechos reservados.</span>
+                    </nav>
+            </div>
+        </footer>
+    <script src="../js/cotiza.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+  </body>
+</html>

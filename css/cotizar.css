@@ -1,0 +1,46 @@
+
+body{
+    background-image: url(../multimedia/backgroundcontainer1.jpg);
+    background-size:cover;
+}
+.seleccion{
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: center;   
+    
+}
+.img-fluid{
+    margin: 5px;
+    height: 70px;
+    width: 250px; 
+}
+.seleccion button{
+    margin: 5px;
+}
+.container{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    text-align: center;
+    width: 20cm;
+    height: 24cm;
+    color: #fff;
+    font-style: italic;
+}
+footer {  
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2px;
+}
+
+footer .container {
+    width: 3cm;
+    height: 1.3cm;
+}
+
+.container nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
